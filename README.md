@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 AI Sales Insights Dashboard
 
 A modular Streamlit dashboard that visualises Superstore sales data and generates AI-powered business insights using Google Gemini.
@@ -109,3 +110,7 @@ streamlit run app.py
 - `plotly` — interactive charts
 - `google-generativeai` — Gemini AI SDK
 - `python-dotenv` — environment variable loading
+=======
+# ai-sales-dashboard
+AI Sales Insights Dashboard is a data analytics web app that turns raw retail CSV data into interactive charts and AI-generated business reports. Filter by region, category, or segment — then let Gemini analyse the data and surface trends, risks, and growth opportunities in seconds.
+>>>>>>> ce529e53be5ff774eb5857be76dcb76da01369a2
