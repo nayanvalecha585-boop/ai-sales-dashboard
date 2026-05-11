@@ -5,8 +5,6 @@ A modular Streamlit dashboard that visualises Superstore sales data and generate
 ---
 
 ## 🗂️ Project Structure
-
-```
 ai-sales-dashboard/
 │
 ├── app.py                    ← Main entry point (run this)
@@ -22,22 +20,22 @@ ai-sales-dashboard/
 │   └── gemini_client.py      ← Gemini API wrapper
 │
 ├── data/
-│   └── superstore.csv        ← ⚠️ Add your dataset here
+│   └── superstore.csv        ← Add your dataset here
 │
-├── .env                      ← ⚠️ Add your API key here (not in Git)
+├── .env                      ← Add your API key here (not in Git)
 ├── .env.example              ← Template for .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-```
 
+---
 
 ## 🚀 Setup & Run
 
-### 1. Clone / download the project
+### 1. Clone the project
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/nayanvalecha585-boop/ai-sales-dashboard.git
 cd ai-sales-dashboard
 ```
 
@@ -57,7 +55,7 @@ pip install -r requirements.txt
 
 ### 4. Add your dataset
 
-Place your `superstore.csv` file inside the `data/` folder.  
+Place your `superstore.csv` file inside the `data/` folder.
 Download the Superstore dataset from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
 
 ### 5. Add your Gemini API key
@@ -67,9 +65,7 @@ cp .env.example .env
 ```
 
 Edit `.env`:
-```
 GEMINI_API_KEY=your_actual_key_here
-```
 
 Get a free API key at [aistudio.google.com](https://aistudio.google.com).
 
@@ -109,6 +105,5 @@ streamlit run app.py
 - `google-generativeai` — Gemini AI SDK
 - `python-dotenv` — environment variable loading
 
-# ai-sales-dashboard
-AI Sales Insights Dashboard is a data analytics web app that turns raw retail CSV data into interactive charts and AI-generated business reports. Filter by region, category, or segment — then let Gemini analyse the data and surface trends, risks, and growth opportunities in seconds.
-ce529e53be5ff774eb5857be76dcb76da01369a2
+---
+
