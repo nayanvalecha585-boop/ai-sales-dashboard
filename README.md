@@ -1,4 +1,3 @@
-HEAD
 # 📊 AI Sales Insights Dashboard
 
 A modular Streamlit dashboard that visualises Superstore sales data and generates AI-powered business insights using Google Gemini.
